@@ -28,7 +28,7 @@ def tabela(preco=0, porc=0, porcm =0):
     print(f'Dobro do preço:  \t{dobro(preco, True)}')
     print(f'Metade do preço: \t{metade(preco, True)}', )
     print(f'{porc}% de Aumento: \t{aumentando(preco, porc, True)}')
-    print(f'{porcm}% de redução: \t\t{diminuindo(preco, porcm, True)}')
+    print(f'{porcm}% de redução: \t{diminuindo(preco, porcm, True)}')
 
 
 
