@@ -37,7 +37,11 @@ def tabela(preco=0, porc=0, porcm =0):
     print('-'*30)
     print('RESUMO VALOR'.center(30))
     print('-'*30)
+<<<<<<< HEAD
     print(f'Valor analisado: \tR${preco:>.2f}')
+=======
+    print(f'Valor analisado: \tR${preco:.2f}')
+>>>>>>> e63f6f6 (adiconando dados/entradas)
     print(f'Dobro do preço:  \t{dobro(preco, True)}')
     print(f'Metade do preço: \t{metade(preco, True)}', )
     print(f'{porc}% de Aumento: \t{aumentando(preco, porc, True)}')
